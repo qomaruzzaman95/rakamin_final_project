@@ -1,6 +1,6 @@
 ### Final Project Rakamin - E-Commerce Dataset 
-<b>By Data Center Group</b>
-
+<b>By Data Center Group</b><br>
+[**EDA Analysis**](https://github.com/Adhete/final_project_rakamin/blob/main/finpro_ecommere_data%20center.ipynb "EDA Analysis")
 # 💡Summary Insight
 **1. Descriptive Statistics**
 - Tipe data kolom `operating system` dapat menggunakan tipe data int,
