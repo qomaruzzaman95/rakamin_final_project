@@ -1,5 +1,5 @@
 ### Final Project Rakamin - E-Commerce Dataset 
-**By Data Center Group **
+<b>By Data Center Group</b>
 
 # 💡Summary Insight
 **1. Descriptive Statistics**
@@ -16,7 +16,7 @@ Selain nilai null, juga terdapat 711 data Duplicated.
 - Sedangkan untuk fitur kategorikal (cats), fitur revenue dipilih sebagai target. tetapi atribut ini memiliki imbalances, dimana nilai False/Not Buyer terdapat sebanyak 10.938 data, sehingga perlu untuk disesuaikan ketika proses training.
 
 ------------
-**2. Univariate Analysis**
+**2. Univariate Analysis**<br>
 Untuk kolom **numerikal** berikut ini memiliki distribusi positively skewed
 dan juga memiliki outlier:
 - `administrative`
@@ -49,7 +49,7 @@ Untuk kolom revenue sebagai target perlu dilakukan imbalances handling kolom vis
 
 ------------
 
-**3. Multivariate Analysis**
+**3. Multivariate Analysis**<br>
 Fitur `administrative`, `informational`, `productrelated` memiliki korelasi dengan target `pagevalues` menjadi fitur yang memiliki korelasi sangat relevan dengan target (0.63).
 
 berdasarkan hasil korelasi heatmap yang ditampilkan, terdapat korelasi
@@ -62,7 +62,7 @@ Maka antara salah satu fitur yang berkorelasi tinggi, akan di drop berdasarkan k
 
 ------------
 
-**Business Insight**
+**4. Business Insight**
 - Region 1 memiliki pengunjung paling banyak diantara region lainnya. akan tetapi revenue rate region 2 16.64% menjadi paling tinggi diantara region lainnya.
 - Kunjungan user pada platform, yang menghasilkan revenue didominasi pada bulan November 25,48% Revenue Rate, Sementara bulan Februari memiliki kunjungan yang menghasilkan revenue yang paling sedikit 1.57% Revenue Rate (3 buyer).
 - Bulan May memiliki kunjungan yang paling banyak diantara yang lain terdapat total kunjungan 3533 akan tetapi, hanya 379 dari total kunjungan yang menghasilkan revenue.
@@ -73,14 +73,14 @@ Maka antara salah satu fitur yang berkorelasi tinggi, akan di drop berdasarkan k
 
 
 ------------
-**Business Recommendation**
+**5. Business Recommendation**<br>
 untuk region yang masih rendah nilai revenue_rate nya, tim marketing dapat menampilkan halaman web yang memiliki pagavalues > 0, dan juga menampilkan rekomendasi yang relevan dengan halaman web yang yang dikunjungi user (product related). strategi marketing tersebut dapat dilakukan pada weekend, dikarenakan disaat weekend revenue_rate lebih tinggi dibandingkan weekday. maka hal ini dapat membantu meningkatkan revenue platform e-commerce.
 
 
 ------------
 
 
-**Metrics**
+**6. Metrics**<br>
 Revenue rate
 
 
