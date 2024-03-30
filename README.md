@@ -1,6 +1,6 @@
 ### Final Project Rakamin - E-Commerce Dataset 
 <b>By Data Center Group</b><br>
-[**Exploratory Data Analysis**](https://github.com/Adhete/final_project_rakamin/blob/main/finpro_ecommere_data%20center.ipynb "EDA Analysis")
+[**Exploratory Data Analysis**](https://github.com/Adhete/final_project_rakamin/blob/main/ecommerce_finpro.ipynb "Data Preprocessing")
 # 💡Summary Insight
 **1. Descriptive Statistics**
 - Tipe data kolom `operating system` dapat menggunakan tipe data int,
@@ -83,4 +83,36 @@ untuk region yang masih rendah nilai revenue_rate nya, tim marketing dapat menam
 **6. Metrics**<br>
 Revenue rate
 
+------------
 
+## Data Pre-Procesing
+
+**1. Missing values**
+Setelah dilakukan penegcekan, adapun missing value pada dataset. yaitu productrelated_duration sebanyak 639, administrative_duration sebanyak 633, operatingsystems sebanyak 524, administrative sebanyak 111, bouncesrate sebanyak 74. Dengan hal ini, untuk handle missing value dilakukan karena dataset tersebut masih dibawa 10% maka dataset dihapus atau diisi dengan median menggunakan fungsi fillna dan hasilnya seperti pada gambar 2. Dengan demikian, sudah tidak ada lagi data yang kosong.
+
+**2. Duplicated data**
+Data yang duplikat ada 717. Data sebelum dilakukan handle duplicate ada 12946. Setelah di-handle, diperoleh 12229 data.
+
+**3. Outliers**
+Sebelum dilakukan penghapusan outlier dilakukan split dataset terlebih dahulu. Handle Outlier menggunakan metode Z-Score.
+
+**4. Feature transformation**
+Adapun feature transformation dilakukan untuk transform numerical feature dengan menggunakan Standardization pada dataset train dan test.
+
+**5. Feature encoding**
+Pada fitur kategorikal `month`, `operatingsystems`, `browser` `region`, `traffictype`, `visitortype` dilakukan one hot encoding.
+
+**6. Cass imbalance**
+Metode yang digunakan untuk mengatasi class imbalance adalah SMOTE (Synthetic Minority Over-sampling Technique) dengan data yang digunakan adalah data train.
+
+**7. Feature selection**
+Untuk mencari feature selection menggunkan fungsi `SelectKBest` dan `mutual_info_classif` pada library `sklearn.feature_selection`
+
+**8. Feature extraction**
+Berdasarkan Live Mentoring bersama dengan tutor, tidak dilakukan feature extraction dikarenakan tidak memiliki fitur atau kolom yang bisa di-extraction yang berisi informasi tanggal, waktu, atau tahun dalam dataset.
+
+**9. 4 Fitur tambahan (selain yang sudah tersedia di dataset)**
+		1.  Average Session Duration
+		2.  Bounce Rate by Device Type
+		3.  Date
+		4.  User Demographics
