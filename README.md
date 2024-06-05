@@ -113,10 +113,10 @@ Untuk mencari feature selection menggunkan fungsi `SelectKBest` dan `mutual_info
 Berdasarkan Live Mentoring bersama dengan tutor, tidak dilakukan feature extraction dikarenakan tidak memiliki fitur atau kolom yang bisa di-extraction yang berisi informasi tanggal, waktu, atau tahun dalam dataset.
 
 **9. 4 Fitur tambahan (selain yang sudah tersedia di dataset)**
-		1.  Average Session Duration
-		2.  Bounce Rate by Device Type
-		3.  Date
-		4.  User Demographics
+1.  Average Session Duration
+2.  Bounce Rate by Device Type
+3.  Date
+4.  User Demographics
 =======
 "# rakamin_final_project" 
 >>>>>>> f618424a1b1cd859dfec43fa0814562d35c8d7e5
