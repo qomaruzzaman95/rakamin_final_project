@@ -117,6 +117,3 @@ Berdasarkan Live Mentoring bersama dengan tutor, tidak dilakukan feature extract
 2.  Bounce Rate by Device Type
 3.  Date
 4.  User Demographics
-=======
-"# rakamin_final_project" 
->>>>>>> f618424a1b1cd859dfec43fa0814562d35c8d7e5
